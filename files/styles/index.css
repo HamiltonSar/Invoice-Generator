@@ -1,3 +1,4 @@
+@import url("./queries.css");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,19 +20,21 @@
   width: 100%;
 }
 .headercontainer__apptitlecontainer {
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 .headercontainer__apptitle {
-  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2em;
   color: #fff;
 }
 
 .basicdatacontainer {
   width: 90%;
   margin: 2em auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 10px;
 }
 .basicdatacontainer__inputcontainer {
@@ -72,6 +75,10 @@
 .buttonsmanagercontainer__buttons:hover {
   color: #000;
   transform: scale(1.02);
+}
+.buttonsmanagercontainer__link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .popupcontainer {
@@ -129,11 +136,14 @@
 }
 .productmanagercontainer__resultcontainer {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
 }
 .productmanagercontainer__resultcontent {
-  background-color: rgb(241, 237, 237);
   display: flex;
   justify-content: space-between;
+  background-color: rgb(241, 237, 237);
 }
 .productmanagercontainer__results {
   text-align: center;
@@ -150,6 +160,13 @@
   display: none;
 }
 
-#FooterDataContainer {
+#ResultsMainContainer {
   display: none;
+}
+
+#ButtonAddContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
 }/*# sourceMappingURL=index.css.map */

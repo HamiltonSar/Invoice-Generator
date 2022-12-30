@@ -1,3 +1,5 @@
+@import url("./queries.css");
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -21,10 +23,15 @@ $primaryBackgroundColor : slateblue;
         width: 100%;
     }
     &__apptitlecontainer {
+        display: flex;
+        align-items: center;
         text-align: center;
     }
     &__apptitle {
-        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        font-size: 1.2em;
         color: #fff;
     }
 }
@@ -32,9 +39,6 @@ $primaryBackgroundColor : slateblue;
 .basicdatacontainer {
     width: 90%;
     margin: 2em auto;
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: repeat(3 , 1fr);
     gap: 10px;
     &__inputcontainer {
         display: flex;
@@ -74,6 +78,10 @@ $primaryBackgroundColor : slateblue;
             color: #000;
             transform: scale(1.020);
         }
+    }
+    &__link {
+        text-decoration: none;
+        color: #fff;
     }
 }
 
@@ -131,11 +139,14 @@ $primaryBackgroundColor : slateblue;
     }
     &__resultcontainer {
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
     }
     &__resultcontent {
-        background-color: rgb(241, 237, 237);
         display: flex;
         justify-content: space-between;
+        background-color: rgb(241, 237, 237);
     }
     &__results {
         text-align: center;
@@ -151,6 +162,12 @@ $primaryBackgroundColor : slateblue;
 #PopUpProductManager {
     display: none;
 }
-#FooterDataContainer {
+#ResultsMainContainer {
     display: none;
+}
+#ButtonAddContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
 }

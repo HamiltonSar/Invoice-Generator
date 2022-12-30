@@ -1,0 +1,47 @@
+@media screen and (min-width : 360px) {
+    body {
+        font-size: 10px;
+    }
+    .headercontainer__logocontainer {
+        width: 12em;
+    }
+    .basicdatacontainer{
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+    .basicdatacontainer__labelsection {
+        margin-right: 2em;
+    }
+}
+@media screen and (min-width : 576px) {
+    body {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width : 768px) {
+    body {
+        font-size: 12px;
+    }
+    
+}
+@media screen and (min-width : 992px) {
+    body {
+        font-size: 14px;
+    }
+    
+}
+@media screen and (min-width : 1200px) {
+    body {
+        font-size: 14px;
+    }
+    .popupcontainer__input {
+        margin-left: 0.7em;
+        
+    }
+}
+@media screen and (min-width : 1400px) {
+    body {
+        font-size: 16px;
+    }
+    
+}
