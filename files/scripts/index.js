@@ -14,6 +14,7 @@ const ResultsMainContainer = document.getElementById("ResultsMainContainer");
 const ResultContainer = document.getElementById("ResultContainer");
 const PrintButton = document.getElementById("PrintButton");
 const ButtonsManagerContainer = document.getElementById("ButtonsManagerContainer");
+const SignaturesContainer = document.getElementById("SignaturesContainer");
 let ArrayPrices = [];
 let prices;
 
@@ -110,5 +111,6 @@ CalculateButton.addEventListener("click" , GenerateCalculation);
 PrintButton.addEventListener("click" , ()=> {
     PopUpProductManager.style.display = "none"
     ButtonsManagerContainer.style.display = "none";
+    SignaturesContainer.style.display = "flex";
     window.print();
 })

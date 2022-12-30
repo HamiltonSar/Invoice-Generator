@@ -30,84 +30,84 @@
 
         <div class="basicdatacontainer row justify-content-between align-items-center">
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
-                <label class="basicdatacontainer__labelsection">Invoice number</label>
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
+                <label class="basicdatacontainer__labelsection">Invoice</label>
                 <input class="basicdatacontainer__entrydata" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
-                <label class="basicdatacontainer__labelsection"> Issue date </label>
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
+                <label class="basicdatacontainer__labelsection"> Date </label>
                 <input class="basicdatacontainer__entrydata" placeholder = "Day/Month/Year" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Customer</label>
                 <input class="basicdatacontainer__entrydata" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
-                <label class="basicdatacontainer__labelsection" for="">Phone number</label>
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
+                <label class="basicdatacontainer__labelsection" for="">Phone</label>
                 <input class="basicdatacontainer__entrydata"  type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">ID</label>
                 <input class="basicdatacontainer__entrydata" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Location</label>
                 <input class="basicdatacontainer__entrydata" placeholder = " Country / City " type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
-                <label class="basicdatacontainer__labelsection" for="">Way to pay</label>
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
+                <label class="basicdatacontainer__labelsection" for="">Payment</label>
                 <select  class="basicdatacontainer__entrydata basicdatacontainer__selectcontent">
                     <option class="basicdatacontainer__option" selected value="Cash">Cash</option>
                     <option class="basicdatacontainer__option" value="Credit-card">Credit Card</option>
                 </select>
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Address</label>
                 <input class="basicdatacontainer__entrydata" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
-                <label class="basicdatacontainer__labelsection" for="">Store order</label>
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
+                <label class="basicdatacontainer__labelsection" for="">Order</label>
                 <input class="basicdatacontainer__entrydata" type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Email</label>
                 <input class="basicdatacontainer__entrydata" placeholder = " example@example.com " type="email">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Off</label>
                 <input class="basicdatacontainer__entrydata" placeholder = " % " type="text">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">IVA</label>
                 <input class="basicdatacontainer__entrydata" type="text" disabled value="12">
             </div>
 
-            <div class="basicdatacontainer__inputcontainer col-4 col-sm-4 col-md-3 col-xxl-2">
+            <div class="basicdatacontainer__inputcontainer col-12  col-md-4 col-xxl-2">
                 <label class="basicdatacontainer__labelsection" for="">Taxes</label>
                 <input class="basicdatacontainer__entrydata" type="text" disabled value="27">
             </div>
 
         </div>
 
-        <div id = "ButtonsManagerContainer" class="buttonsmanagercontainer">
+        <div id="ButtonsManagerContainer" class="buttonsmanagercontainer">
             <button id="AddNewProductButton" class="buttonsmanagercontainer__buttons">Add new Product</button>
             <button id="GenerateInvoiceButton" class="buttonsmanagercontainer__buttons"><a target="_blank"  href = "./invoicemodel.html" class="buttonsmanagercontainer__link">Generate Invoice</a></button>
             <button id="DeleteAllButton" class="buttonsmanagercontainer__buttons">Delete All</button>
             <button id="CalculateButton" class="buttonsmanagercontainer__buttons">Calculate</button>
             <button id="PrintButton" class="buttonsmanagercontainer__buttons">Print</button>
-
         </div>
+
 
         <div id="PopUpProductManager" class="popupcontainer row">
             <div class="popupcontainer__input col-sm-5 col-xl-2 justify-content-between">
@@ -167,23 +167,24 @@
         
         
 
-        <!-- <div class="signaturesrolecontainer">
+        <div id="SignaturesContainer" class="signaturesrolecontainer">
 
             <div class="signaturesrolecontainer__signaturecontainer">
                 <div class="signaturesrolecontainer__signatureimgcontainer">
                     <img class="signaturesrolecontainer__signatureimg" src="./../../assets/ceosignature.png">
                 </div>
                 <div class="signaturesrolecontainer__signaturerolecontainer">
-                    <h2 class="signaturesrolecontainer__signaturoler">CEO Stone</h2>
+                    <h2 class="signaturesrolecontainer__signatureroler">CEO Stone</h2>
                 </div>
             </div>
+            
 
             <div class="signaturesrolecontainer__signaturecontainer">
                 <div class="signaturesrolecontainer__signatureimgcontainer">
                     <img class="signaturesrolecontainer__signatureimg" src="./../../assets/allisafromhr.png">
                 </div>
                 <div class="signaturesrolecontainer__signaturerolecontainer">
-                    <h2 class="signaturesrolecontainer__signaturoler">HR Alissa</h2>
+                    <h2 class="signaturesrolecontainer__signatureroler">HR Alissa</h2>
                 </div>
             </div>
 
@@ -192,7 +193,7 @@
                     <img class="signaturesrolecontainer__signatureimg" src="./../../assets/customersignature.png">
                 </div>
                 <div class="signaturesrolecontainer__signaturerolecontainer">
-                    <h2 class="signaturesrolecontainer__signaturoler">Customer</h2>
+                    <h2 class="signaturesrolecontainer__signatureroler">Customer</h2>
                 </div>
             </div>
             
@@ -201,14 +202,14 @@
         <div class="footercontainer">
             <footer class="footercontainer__footer">
                 <div class="footercontainer__logofooter">
-                    <img src="./../../assets/logohome.png">
+                    <img class="footercontainer__logo" src="./../../assets/logohome.png">
                 </div>
-                <div class="footercontainer__fottertitle">
+                <div class="footercontainer__fottertitlecontainer">
                     <h2 class="footercontainer__footertitle">Invoice Generator</h2>
                 </div>
             </footer>
 
-        </div> -->
+        </div>
 
 
 

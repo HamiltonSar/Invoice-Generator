@@ -1,6 +1,6 @@
 @media screen and (min-width : 360px) {
     body {
-        font-size: 10px;
+        font-size: 8px;
     }
     .headercontainer__logocontainer {
         width: 12em;
@@ -12,10 +12,16 @@
     .basicdatacontainer__labelsection {
         margin-right: 2em;
     }
+    .buttonsmanagercontainer{
+        gap: 1em;
+    }
 }
 @media screen and (min-width : 576px) {
     body {
-        font-size: 10px;
+        font-size: 9px;
+    }
+    .buttonsmanagercontainer{
+        gap: 4em;
     }
 }
 @media screen and (min-width : 768px) {

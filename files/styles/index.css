@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("./queries.css");
 * {
   box-sizing: border-box;
@@ -35,10 +36,10 @@
 .basicdatacontainer {
   width: 90%;
   margin: 2em auto;
-  gap: 10px;
 }
 .basicdatacontainer__inputcontainer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .basicdatacontainer__labelsection {
@@ -138,7 +139,6 @@
   width: 20%;
   display: flex;
   flex-direction: column;
-  background-color: red;
 }
 .productmanagercontainer__resultcontent {
   display: flex;
@@ -150,6 +150,40 @@
   width: 100%;
   border: 2px solid rgb(207, 205, 205);
   font-size: 1em;
+}
+
+.signaturesrolecontainer {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.signaturesrolecontainer__signatureimg {
+  width: 10em;
+}
+.signaturesrolecontainer__signatureroler {
+  font-size: 1.4em;
+  text-align: centerº;
+}
+
+.footercontainer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.footercontainer__footer {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+.footercontainer__logo {
+  width: 10em;
+}
+.footercontainer__footertitle {
+  font-size: 1.2em;
 }
 
 #TableContainer {
@@ -169,4 +203,8 @@
   display: flex;
   justify-content: center;
   padding: 4px;
+}
+
+#SignaturesContainer {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
