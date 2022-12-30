@@ -77,10 +77,6 @@
   color: #000;
   transform: scale(1.02);
 }
-.buttonsmanagercontainer__link {
-  text-decoration: none;
-  color: #fff;
-}
 
 .popupcontainer {
   margin: 5em auto;
